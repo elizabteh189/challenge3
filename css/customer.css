@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+
+
+.container {
+  width: 250px;
+  height: 1050px;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+    width: 750px;
+  }
+}
+.container .art,
+.container .art,
+.container .art {
+  width: 100%;
+  height: 350px;
+  background-color: #e38826;
+}
+.container .art:nth-child(1),
+.container .art:nth-child(1),
+.container .art:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+@media (min-width: 1000px) {
+  .container .art:nth-child(1),
+.container .art:nth-child(1),
+.container .art:nth-child(1) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+}
+.container .art:nth-child(2),
+.container .art:nth-child(2),
+.container .art:nth-child(2) {
+  background-color: #006970;
+}
+.container .art:nth-child(3),
+.container .art:nth-child(3),
+.container .art:nth-child(3) {
+  background-color: #004241;
+}
+.container .art .containerArt,
+.container .art .containerArt,
+.container .art .containerArt {
+  width: 75%;
+  height: 350px;
+  margin: auto;
+  margin-left: 35px;
+}
+.container .art .containerArt img,
+.container .art .containerArt img,
+.container .art .containerArt img {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  width: 50px;
+}
+.container .art .containerArt .texto h2,
+.container .art .containerArt .texto h2,
+.container .art .containerArt .texto h2 {
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 30px;
+}
+.container .art .containerArt .texto p,
+.container .art .containerArt .texto p,
+.container .art .containerArt .texto p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.609);
+  line-height: 17px;
+  margin-bottom: 50px;
+}
+.container .art .containerArt .texto a,
+.container .art .containerArt .texto a,
+.container .art .containerArt .texto a {
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  color: #e38826;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 11px;
+}
+
+/*# sourceMappingURL=customer.css.map */
